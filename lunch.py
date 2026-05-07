@@ -9,7 +9,7 @@ st.set_page_config(page_title="오늘 뭐 먹지?", page_icon="🍱")
 
 # 1. 구글 시트 연결 설정
 # 시트 URL을 아래 "YOUR_SHEET_URL" 부분에 넣으세요
-SHEET_URL = "https://docs.google.com/spreadsheets/d/YOUR_SHEET_URL_HERE/edit#gid=0"
+SHEET_URL = "https://docs.google.com/spreadsheets/d/1EUaXTfQoQ2EpHsJ3F7Ad-oBLMxGhFAu5p7LIn4MIT60/edit?usp=sharing"
 conn = st.connection("gsheets", type=GSheetsConnection)
 
 # --- [메뉴 데이터 및 슬롯 로직은 이전과 동일하므로 생략하거나 그대로 유지] ---
