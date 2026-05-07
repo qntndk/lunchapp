@@ -10,7 +10,7 @@ st.set_page_config(page_title="오늘 뭐 먹지?", page_icon="🍱", layout="ce
 # 2. 구글 시트 연결 설정
 # [주의] 배포 시 Secrets 설정이나 아래 URL 입력이 필요합니다.
 # 여기에 본인의 구글 시트 '편집자 공유용' URL을 넣으세요.
-SHEET_URL = "https://docs.google.com/spreadsheets/d/1EUaXTfQoQ2EpHsJ3F7Ad-oBLMxGhFAu5p7LIn4MIT60/edit#gid=0"
+SHEET_URL = "1EUaXTfQoQ2EpHsJ3F7Ad-oBLMxGhFAu5p7LIn4MIT60"
 
 try:
     conn = st.connection("gsheets", type=GSheetsConnection)
